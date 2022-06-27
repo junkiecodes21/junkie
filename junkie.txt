@@ -1,5 +1,1 @@
- starting a new course Git 
-
- Course start with GIT 
- Tutor Manohar 
- 
+ Details given in the previous file 
