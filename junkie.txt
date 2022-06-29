@@ -1,3 +1,5 @@
  hi manohar how are you whats up !
-error happened ! 
+error happened !
+
+manohar explained about AWS service creating instance in CLi
 
