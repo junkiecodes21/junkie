@@ -5,5 +5,7 @@ manohar explained about AWS service creating instance in CLi
 
 i started learning terraform 
 
-how to trigger aws instance with terraform 
+how to trigger aws instance with terraform
+
+we learned about VPC & S3 bucket 
 
