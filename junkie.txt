@@ -1,11 +1,8 @@
- hi manohar how are you whats up !
-error happened !
+We tried to install Docker but we got error 
 
-manohar explained about AWS service creating instance in CLi
+and we tried to build containers in docker 
 
-i started learning terraform 
+examples nginx & reddis 
 
-how to trigger aws instance with terraform
 
-we learned about VPC & S3 bucket 
 
