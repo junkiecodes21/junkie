@@ -1,8 +1,2 @@
-We tried to install Docker but we got error 
-
-and we tried to build containers in docker 
-
-examples nginx & reddis 
-
-
+No Class today its holiday time 
 
