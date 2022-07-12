@@ -1,3 +1,1 @@
-there is no information loaded which is fishy :-)
-
-waiting for the class start
+Practising python & CI CD & AWS CLOUDWATCH
