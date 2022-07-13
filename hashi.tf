@@ -25,7 +25,7 @@ resource "aws_instance" "web" {
 resource "aws_security_group" "allow_tls" {
   name        = "securitytroop"
   description = "codesecuritygr"
-  vpc_id      = "vpc-029c8a96a479f337e"
+  vpc_id      = var.vpcid
 
   ingress {
     description      = "codesecuritygr"
