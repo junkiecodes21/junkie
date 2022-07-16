@@ -1,1 +1,2 @@
-Practising python & CI CD & AWS CLOUDWATCH
+learning more about Jenkins .......
+
