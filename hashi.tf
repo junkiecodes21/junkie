@@ -16,14 +16,14 @@ resource "aws_instance" "web" {
   ami           = "ami-0cff7528ff583bf9a"
   instance_type = "t2.micro"
   key_name = "herosh"
-  security_groups = ["securitytroop"]
+  security_groups = ["securitytroop2"]
   tags = {
     Name = "HelloWorld"
   }
 }
 
 resource "aws_security_group" "allow_tls" {
-  name        = "securitytroop"
+  name        = "securitytroop2"
   description = "any where from ssh"
   vpc_id      = var.vpcid
 
