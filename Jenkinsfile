@@ -11,6 +11,9 @@ pipeline {
         stage('terraform apply') { 
             steps {
                 echo "applying terraform"
+                sh "export AWS_ACCESS_KEY_ID=AKIAVYPDWDJUU65IP6IY"
+                sh "export AWS_SECRET_ACCESS_KEY=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"
+                sh "export AWS_DEFAULT_REGION=us-east-1"
               sh "terraform apply --auto-approve"
                 // 
             }
