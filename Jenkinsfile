@@ -11,8 +11,9 @@ pipeline {
         stage('terraform apply') { 
             steps {
                 echo "applying terraform"
-              sh "terraform apply --auto-approve"
-                // 
+                withAWS(credentials:'awscredentials') {
+                    sh "AWS_DEFAULT_REGION=us-east-1 terraform apply --auto-approve"
+                }
             }
         }
         
