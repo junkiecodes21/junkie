@@ -1,11 +1,56 @@
 # # checking the even number 
 
-# a=100
+# a = "100"
 
-# if a%2 == 0:
-#     print("this is even")
-# else: 
-#     print("this is odd")
+# def is_even(a):
+#     if int(a)%2 == 0:
+#         return True
+#     else:
+#         return False
+
+# def main():
+#     output = is_even(a)
+#     if output:
+#         print("it is even")
+#     else:
+#         print("it is odd")
+
+# main()
+
+
+a = input()
+
+
+
+def even(a):
+    if int(a)%2 ==0:
+        return True
+    else:
+        return False
+
+def main():
+    output = even(a)
+    print(output)
+
+main()
+
+
+
+
+
+
+
+
+
+# x = [1,2,3,4,5]
+# for i in x:
+#     print(i)
+
+# for i in range(5):
+#     print(i+1)
+
+
+
 
 
 # my_variable = input("What's your jersey number")
@@ -72,20 +117,20 @@
 # print("no of times")
 # print(times)
 
-students ={
-    "sam" : [50,67,90],
-    "david" : [90,80,50],
-    "tim" : [40,60,89 , 90],
-}
-students_marks = students["tim"]
-print(students_marks)
-print(len(students_marks))
+# students ={
+#     "sam" : [50,67,90],
+#     "david" : [90,80,50],
+#     "tim" : [40,60,89 , 90],
+# }
+# students_marks = students["tim"]
+# print(students_marks)
+# print(len(students_marks))
 
-total_sum = 0
-for i in students_marks:
-    total_sum = total_sum + i
+# total_sum = 0
+# for i in students_marks:
+#     total_sum = total_sum + i
 
-print("averagemarks",total_sum/len(students_marks))
+# print("averagemarks",total_sum/len(students_marks))
 
 
 
